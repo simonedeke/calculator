@@ -1,0 +1,53 @@
+#CalcContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: black;
+    padding:10px;
+}
+#Calculator {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.calc-display {
+    border:1px solid black;
+    text-align: center;
+    background-color: white;
+    margin: 10px 0;
+}
+.numbutton {
+    padding:10px;
+}
+button{
+    margin:0;
+    padding:0;
+}
+.buttons {
+    display: flex;
+    padding:10px;
+}
+.numbers {
+    padding:10px;
+    display: flex;
+    flex:1;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.operators {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    padding: 10px;
+    align-items: center;
+    gap:10px;
+}
+.operator {
+    padding: 10px 20px;
+    width:80px;
+}
+.clear {
+    padding:10px;
+}
